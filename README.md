@@ -1,5 +1,9 @@
 # Simple-Log-In-Manager
 Simple Log In Manager written in python, uses JSON files to store log ins, encrypts passwords using the SHA256 Algorithm.
+# Warnings!
+- This is just a side project, please do not use an SHA256 algorithm to store very important information, as it is easily brute forced because modern day computing is too powerful.
+- I plan on changing the algorithm to one more robust to prevent brute forcing and many other ways to hack the system.
+- If planning on making a project like this one, I suggest using Argon2 or bcrypt to encrypt the passwords and/or usernames. 
 # How it works
 - This Log In Manager allows a user to input their username and password.
 
