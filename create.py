@@ -5,9 +5,9 @@ import os
 base_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(base_dir, 'data.json')
 # constants
-sha256 = hashlib.sha256()
 
 def createPage():
+    sha256 = hashlib.sha256()
     running = True
     isUsernameTaken = False
     with open(file_path) as f:

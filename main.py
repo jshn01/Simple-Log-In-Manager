@@ -32,15 +32,14 @@ try:
         except:
             print("Please enter a number.")
             pass
-
-    if number == 1:
-        loginPage()
-        input = input("Press ENTER TO EXIT")
-    elif number == 2:
-        createPage()
-        running = True
-    elif number == 3:
-        exitPage() 
+        if number == 1:
+            loginPage()
+            hey = input("Press ENTER TO EXIT")
+        elif number == 2:
+            createPage()
+            running = True
+        elif number == 3:
+            exitPage() 
 
 except Exception as e:
     print(f"Error {e}")
